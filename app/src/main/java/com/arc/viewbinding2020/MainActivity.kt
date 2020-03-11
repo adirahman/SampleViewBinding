@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        namaAdapter = NamaAdapter(R.layout.item_nama)
+        namaAdapter = NamaAdapter()
 
         val listFakeName = ArrayList<String>()
         listFakeName.add("Ucok")

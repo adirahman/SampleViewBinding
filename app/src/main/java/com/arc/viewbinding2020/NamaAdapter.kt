@@ -2,11 +2,10 @@ package com.arc.viewbinding2020
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.annotation.LayoutRes
 import androidx.recyclerview.widget.RecyclerView
 import com.arc.viewbinding2020.databinding.ItemNamaBinding
 
-class NamaAdapter(@LayoutRes val layoutId:Int): RecyclerView.Adapter<NamaAdapter.NamaViewHolder>(){
+class NamaAdapter(): RecyclerView.Adapter<NamaAdapter.NamaViewHolder>(){
 
     private val items = mutableListOf<String>()
 
