@@ -1,0 +1,2 @@
+rootProject.name='ViewBinding2020'
+include ':app'
